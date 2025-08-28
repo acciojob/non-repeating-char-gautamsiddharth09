@@ -14,12 +14,11 @@ function firstNonRepeatedChar(str) {
      if(freq[char] === 1){
          return char;
      } else {
-         return null;
+         
      }
  }
+	return null;
 } 
-
-
 const input = prompt("gautam");
 alert(firstNonRepeatedChar(input)); 
 
